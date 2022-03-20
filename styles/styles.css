@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,7 +10,7 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
- /* nav start */
+/* nav start */
 
 .navbar {
   font-size: 18px;
@@ -30,11 +31,13 @@ body {
   color: #000000;
 }
 
-.logo,.home{
+.logo,
+.home {
   text-decoration: none;
 
-  color:#3C64B1;
+  color: #3C64B1;
 }
+
 .main-nav li {
   text-align: center;
   margin: 15px auto;
@@ -45,7 +48,7 @@ body {
   margin-left: 13%;
 }
 
-.login{
+.login {
   margin-right: 13%;
 }
 
@@ -63,7 +66,7 @@ body {
   display: none;
 }
 
-#chkToggle:checked + ul.main-nav {
+#chkToggle:checked+ul.main-nav {
   display: block;
 }
 
@@ -76,7 +79,7 @@ body {
     align-items: center;
   }
 
-  #chkToggle:checked + ul.main-nav {
+  #chkToggle:checked+ul.main-nav {
     display: flex;
   }
 
@@ -88,7 +91,7 @@ body {
 
   .main-nav li {
     display: inline-block;
-     float: none;
+    float: none;
   }
 
   .nav-links {
@@ -113,23 +116,32 @@ body {
 
 /* head-section start */
 
-.head-section{
+.head-section {
   background-color: #bccfe033 !important;
   max-width: 100% !important;
 }
-.head-card1{
+
+.head-card1 {
   margin-top: 12% !important;
   width: 50% !important;
   margin-right: 10%;
 }
 
-.head-card2{
+.head-card2 {
   margin-top: 8% !important;
   width: 50% !important;
   margin-left: 10%;
 }
 
 /* head-section end */
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.1px;
+}
 
 .services-container {
   max-width: 1100px;
@@ -193,21 +205,48 @@ p {
 
 }
 
-.btn:focus, .btn.focus {
+.btn:focus,
+.btn.focus {
   outline: 0;
 }
 
 .btn-round {
   border-radius: 5px;
 }
+
 .btn-primary {
   background: #3498db;
   color: #ffffff;
 }
+
 .btn-primary:hover {
   background: #2980b9;
   color: #ffffff;
 }
- 
- /* button end */
- 
+
+/* button end */
+
+/* CAREGIVERS SECTIONS */
+.caregivers-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.caregivers-profile {
+  width: 255px;
+  max-height: 400px;
+  margin: 15px;
+}
+
+.caregivers-profile img {
+  width: 255px;
+  max-height: 260px;
+  object-fit: cover;
+}
+
+.fa-solid {
+  color: #C4C4C4;
+}
