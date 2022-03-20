@@ -1,11 +1,135 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   font-family: "Mulish", sans-serif;
 }
+
+ /* nav start */
+
+.navbar {
+  font-size: 18px;
+  background-color: #bccfe033;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #000000;
+}
+
+.logo,.home{
+  text-decoration: none;
+
+  color:#3C64B1;
+}
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  margin-top: 0;
+  margin-left: 13%;
+}
+
+.login{
+  margin-right: 13%;
+}
+
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+#chkToggle {
+  display: none;
+}
+
+#chkToggle:checked + ul.main-nav {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  #chkToggle:checked + ul.main-nav {
+    display: flex;
+  }
+
+  .main-nav {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .main-nav li {
+    display: inline-block;
+     float: none;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+/* nav end */
+
+/* head-section start */
+
+.head-section{
+  background-color: #bccfe033 !important;
+  max-width: 100% !important;
+}
+.head-card1{
+  margin-top: 12% !important;
+  width: 50% !important;
+  margin-right: 10%;
+}
+
+.head-card2{
+  margin-top: 8% !important;
+  width: 50% !important;
+  margin-left: 10%;
+}
+
+/* head-section end */
 
 .services-container {
   max-width: 1100px;
@@ -56,3 +180,34 @@ p {
   line-height: 20px;
   letter-spacing: 0.2px;
 }
+
+/* button start */
+
+.btn {
+  appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 12px;
+  min-width: 100px;
+  border: 1px solid #3C64B1;
+
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+}
+
+.btn-round {
+  border-radius: 5px;
+}
+.btn-primary {
+  background: #3498db;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background: #2980b9;
+  color: #ffffff;
+}
+ 
+ /* button end */
+ 
