@@ -61,6 +61,11 @@ body {
   font-size: 24px;
 }
 
+.head-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 #chkToggle {
   display: none;
 }
@@ -215,7 +220,7 @@ p {
 }
 
 .btn-primary {
-  background: #3498db;
+  background: #3c64b1;
   color: #ffffff;
 }
 
