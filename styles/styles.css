@@ -141,6 +141,10 @@ body {
   margin-left: 10%;
 }
 
+.head-card2 img {
+  max-width: 500px;
+}
+
 /* head-section end */
 
 /* Service Section */
