@@ -151,7 +151,8 @@ h2 {
 
 .services-container {
   max-width: 1100px;
-  margin: 2rem auto;
+  padding: 2rem 0;
+  margin: 0 auto;
 }
 
 .flex-container {
@@ -159,6 +160,29 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.services-bg {
+  background-color: #e6f0f7;
+  margin-bottom: 3rem;
+}
+
+.services div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.services i {
+  color: #3c64b1;
+  font-size: 35px;
+  margin: 0 0 1rem 0;
 }
 
 .services-container h2 {
@@ -175,11 +199,6 @@ h2 {
   width: 350px;
   text-align: center;
   margin: 0 0 40px 0;
-}
-
-.services-card i {
-  color: #3c64b1;
-  font-size: 35px;
 }
 
 .services-card h3,
@@ -325,6 +344,7 @@ a:hover {
 .footer-section {
   background-color: #bccfe033 !important;
   max-width: 100% !important;
+  margin-top: 2rem;
 }
 
 .h1-footer {
