@@ -465,3 +465,17 @@ a:hover {
 }
 
 /* image simple tile effect end*/
+
+/* Media Queries */
+
+@media (max-width: 810px) {
+  .services {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 500px) {
+  .services {
+    flex-direction: column;
+  }
+}
