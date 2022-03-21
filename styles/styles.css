@@ -31,7 +31,11 @@ body {
   color: #000000;
 }
 
-.logo,
+.logo {
+  max-width: 100px;
+  width: 100%;
+}
+
 .home {
   text-decoration: none;
 
