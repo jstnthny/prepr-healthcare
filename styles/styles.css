@@ -340,8 +340,10 @@ a:hover {
 
 .caregivers-profile img {
   width: 255px;
+  height: 260px;
   max-height: 260px;
   object-fit: cover;
+  object-position: 50% 10%;
 }
 
 .fa-solid {
